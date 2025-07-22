@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+</head>
+<h1>
+    Centry - Track Every Cent.
+</h1>
+
+<div>
+<nav>
+    <ul>
+        Home
+    </ul>
+    <ul>
+        Contact Us
+    </ul>
+</nav>
+</div>
+
+<body>
+    <div>
+        <form action="/login" method="POST">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+        
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+        
+            <button type="submit">Login</button>
+            <button type="new_acc">Create Account</button>
+          </form>
+    </div>
+
+    <div>
+        <form action="/signup" method="POST">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+        
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+        
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
